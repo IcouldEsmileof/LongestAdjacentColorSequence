@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Documents/Icould/Strypes/group.c
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+
+C:/Users/user/Documents/Icould/Strypes/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+direct.h
+-
+matr.c
+C:/Users/user/Documents/Icould/Strypes/matr.c
+
+C:/Users/user/Documents/Icould/Strypes/matr.c
+stdio.h
+-
+stdlib.h
+-
+group.c
+C:/Users/user/Documents/Icould/Strypes/group.c
+
