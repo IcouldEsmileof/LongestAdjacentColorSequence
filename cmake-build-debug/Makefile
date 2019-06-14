@@ -47,24 +47,13 @@ RM = C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Documents\Icould\Strypes
+CMAKE_SOURCE_DIR = C:\Users\user\Documents\Icould\LongestAdjacentColorSequence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Documents\Icould\Strypes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Strypes
+# Target rules for targets named LongestAdjacentColorSequence
 
 # Build rule for target.
-Strypes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Strypes
-.PHONY : Strypes
+LongestAdjacentColorSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LongestAdjacentColorSequence
+.PHONY : LongestAdjacentColorSequence
 
 # fast build rule for target.
-Strypes/fast:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/build
-.PHONY : Strypes/fast
+LongestAdjacentColorSequence/fast:
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/build
+.PHONY : LongestAdjacentColorSequence/fast
 
 main.obj: main.c.obj
 
@@ -128,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/main.c.i
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,7 +146,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/main.c.s
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -155,9 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... Strypes
+	@echo ... LongestAdjacentColorSequence
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

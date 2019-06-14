@@ -58,45 +58,45 @@ RM = C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7479.33\b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Documents\Icould\Strypes
+CMAKE_SOURCE_DIR = C:\Users\user\Documents\Icould\LongestAdjacentColorSequence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Documents\Icould\Strypes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Strypes.dir
+# Target rules for target CMakeFiles/LongestAdjacentColorSequence.dir
 
 # All Build rule for target.
-CMakeFiles/Strypes.dir/all:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/depend
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Strypes"
-.PHONY : CMakeFiles/Strypes.dir/all
+CMakeFiles/LongestAdjacentColorSequence.dir/all:
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/depend
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LongestAdjacentColorSequence"
+.PHONY : CMakeFiles/LongestAdjacentColorSequence.dir/all
 
 # Include target in all.
-all: CMakeFiles/Strypes.dir/all
+all: CMakeFiles/LongestAdjacentColorSequence.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Strypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Strypes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\Strypes\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Strypes.dir/rule
+CMakeFiles/LongestAdjacentColorSequence.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LongestAdjacentColorSequence.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\Icould\LongestAdjacentColorSequence\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LongestAdjacentColorSequence.dir/rule
 
 # Convenience name for target.
-Strypes: CMakeFiles/Strypes.dir/rule
+LongestAdjacentColorSequence: CMakeFiles/LongestAdjacentColorSequence.dir/rule
 
-.PHONY : Strypes
-
-# clean rule for target.
-CMakeFiles/Strypes.dir/clean:
-	$(MAKE) -f CMakeFiles\Strypes.dir\build.make CMakeFiles/Strypes.dir/clean
-.PHONY : CMakeFiles/Strypes.dir/clean
+.PHONY : LongestAdjacentColorSequence
 
 # clean rule for target.
-clean: CMakeFiles/Strypes.dir/clean
+CMakeFiles/LongestAdjacentColorSequence.dir/clean:
+	$(MAKE) -f CMakeFiles\LongestAdjacentColorSequence.dir\build.make CMakeFiles/LongestAdjacentColorSequence.dir/clean
+.PHONY : CMakeFiles/LongestAdjacentColorSequence.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LongestAdjacentColorSequence.dir/clean
 
 .PHONY : clean
 

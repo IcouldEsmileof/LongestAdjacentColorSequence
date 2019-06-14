@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Strypes" targetName="Strypes" />
+      <config projectName="Strypes" targetName="LongestAdjacentColorSequence" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5255a946-bdb6-4a7e-99d7-60f17c3880dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/test_1" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +24,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
@@ -45,20 +44,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/list.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/proxy.c" />
         <option value="$PROJECT_DIR$/group.c" />
         <option value="$PROJECT_DIR$/matr.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/tests/test_2" />
         <option value="$PROJECT_DIR$/tests/test_1" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="780" />
-    <option name="y" value="-19" />
+    <option name="y" value="-20" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -79,6 +78,11 @@
             <path>
               <item name="Strypes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Strypes" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Strypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strypes" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -95,6 +99,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\Icould\Strypes\tests" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -107,12 +116,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Strypes" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_1 test_2 test_3 test_4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Strypes" TARGET_NAME="Strypes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Strypes" RUN_TARGET_NAME="Strypes">
+  <component name="RunManager" selected="CMake Application.LongestAdjacentColorSequence">
+    <configuration name="LongestAdjacentColorSequence" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_1 test_2 test_3 test_4 test_5" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestAdjacentColorSequence" TARGET_NAME="LongestAdjacentColorSequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestAdjacentColorSequence" RUN_TARGET_NAME="LongestAdjacentColorSequence">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Strypes" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_1 test_2 test_3 test_4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestAdjacentColorSequence" TARGET_NAME="Strypes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestAdjacentColorSequence" RUN_TARGET_NAME="Strypes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Strypes" />
+      <item itemvalue="CMake Application.LongestAdjacentColorSequence" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -135,7 +153,7 @@
       <workItem from="1560167074504" duration="2670000" />
       <workItem from="1560172670635" duration="80000" />
       <workItem from="1560321905949" duration="3707000" />
-      <workItem from="1560505917362" duration="4922000" />
+      <workItem from="1560505917362" duration="5164000" />
     </task>
     <task id="LOCAL-00001" summary="Intern project">
       <created>1560172744645</created>
@@ -151,21 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560511921639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new Tests">
+      <created>1560512267266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560512267266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59333000" />
+    <option name="totallyTimeSpent" value="59575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16107382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45750707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6586402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -188,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intern project" />
     <MESSAGE value="now it works:)" />
-    <option name="LAST_COMMIT_MESSAGE" value="now it works:)" />
+    <MESSAGE value="new Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp" />
@@ -223,13 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -240,17 +259,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/tests/test_1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_1">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="-2125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Strypes.cbp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
