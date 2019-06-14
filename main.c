@@ -32,7 +32,6 @@ long findMax(group* head){
 
         current=current->next;
     }
-    //printf("%d\n",id);
     return maxCount;
 }
 void getSubstr(char c[],char newChar[],int start,int end){
