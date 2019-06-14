@@ -1,0 +1,55 @@
+Write a program that finds the longest adjacent sequence of colors in a matrix(2D grid).
+Colors are represented by ‘R’, ‘G’, ‘B’ characters (respectively Red, Green and Blue).
+
+You will be provided with 4 individual test cases,
+which must also be included in your solution.
+
+An example of your solution root directory
+should look like this:
+solutionRootDir
+    | - (my solution files and folders)
+    | - tests/
+        | - test_1
+        | - test_2
+        | - test_3
+        | - test_4
+1) Individual test case input format:
+
+- First you should read two whitespace separated 32-bit integers from the provided test case
+- that represents the size (rows and cols) of the matrix.
+- Next you should read rows number of newline separated lines of 8-bit characters.
+
+Your program should find and print the longest adjacent sequence (diagonals are not
+counted as adjacent fields), and print to the standard output the number.
+
+NOTE: in case of several sequences with the same length – simply print their equal length.
+
+Provided input              Expected output
+
+3 3                         2
+R R B
+G G R
+R B G
+
+4 4                         7
+R R R G
+G B R G
+R G G G
+G G B B
+
+6 6                         22
+R R B B B B
+B R B B G B
+B G G B R B
+B B R B G B
+R B R B R B
+R B B B G B
+
+1000 1000                   1000000
+1000 rows of 1000 R’s
+
+2) Your program entry point should accept from one to four additional parameters.
+Those parameters will indicate the names of the test cases that your program should run.
+    • Example 1: ./myprogram test_1 test_3
+    • Example 2: ./myprogram test_1 test_2 test_3 test_4
+    • you can assume that the input from the user will be correct (no validation is required)
