@@ -9,6 +9,7 @@
 long findMax(group* head){
     group* current=head;
     unsigned long maxCount=0;
+    //int id=-1;
     while(current!=NULL) {
         if(current->isChecked==false) {
             group *curr = current;
@@ -21,12 +22,17 @@ long findMax(group* head){
                 }
                 curr = curr->next;
             }
+
             if(currMax>maxCount){
                 maxCount=currMax;
+                //id=current->groupId;
             }
         }
+        //printf("%ld %ld\n",current->groupId,current->count);
+
         current=current->next;
     }
+    //printf("%d\n",id);
     return maxCount;
 }
 void getSubstr(char c[],char newChar[],int start,int end){
@@ -64,8 +70,9 @@ int main(int argc,char *argv[]) {
         group *head=malloc(sizeof(group));
         head->next=null;
         head->count=0;
-        head->groupId=1;
-        head->i=1;
+        head->groupId=0;
+        head->i=0;
+        head->isChecked=false;
         mat->pGroup=head;
         matr *curr=null;
 
@@ -79,7 +86,6 @@ int main(int argc,char *argv[]) {
                         curr->pGroup = malloc(sizeof(group));
                         push_end(head, curr->pGroup);
                         curr->pGroup->count = 1;
-                        curr->pGroup->next = null;
                         curr->color = col;
                     }else{
                         if(curr->left->color==col){
@@ -90,7 +96,6 @@ int main(int argc,char *argv[]) {
                             curr->pGroup = malloc(sizeof(group));
                             push_end(head, curr->pGroup);
                             curr->pGroup->count = 1;
-                            curr->pGroup->next = null;
                             curr->color = col;
                         }
                     }
@@ -99,7 +104,14 @@ int main(int argc,char *argv[]) {
                         curr->pGroup->count++;
                         if(curr->left!=null){
                             if(curr->left->color==col){
-                                curr->left->pGroup->groupId=curr->pGroup->groupId;
+                                group*cu=head;
+                                long id=curr->left->pGroup->groupId;
+                                while(cu!=null){
+                                    if(cu->groupId==id){
+                                        cu->groupId=curr->pGroup->groupId;
+                                    }
+                                    cu=cu->next;
+                                }
                             }
                         }
                     }else if(curr->left!=null){
